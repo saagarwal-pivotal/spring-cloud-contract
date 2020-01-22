@@ -62,10 +62,10 @@ Create the groovy contract
 	</build>
 ```
 
-```
-@AutoConfigureStubRunner(ids = "com.retailbank:creditcheckservice:+:stubs:8080", workOffline = true)
-```
-
 ### Step 4
 
 Add the base contract test class that will stub the service and set up the controller
+
+### Step 5
+
+Run the test
